@@ -1,0 +1,16 @@
+version: "3"
+
+services: 
+  app:
+    build: .
+    volumes:
+      #- python-volume:/app
+      - /home/lean/learning/docker/python/app:/app
+    ports:
+      - "3310:3310"
+    #tty: true
+    #command: bash -c "python3 test.py && bin/bash"
+
+#volumes:
+  #python-volume:
+
