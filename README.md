@@ -10,9 +10,9 @@ Este repositorio contiene los archivos necesarios para editar y probar una app d
     es la carpeta para la aplicación en Python
 - Dockerfile
     con este archivo se puede hacer la imagenes de Python
-    Para hacer este proyecto trabaje en en windows 10 pro, con Docker Desktop instalado, con un entorno Ubuntu (WSL), en este entorno linux, en una terminal de comando, y dentro de la carpeta donde se encuentra este archivo ejecutamos el siguiente comando:
+    Para hacer este proyecto trabaje en en windows 10 pro, con Docker Desktop instalado, con un entorno Ubuntu (WSL), en este entorno linux, en una terminal de comando, y dentro de la carpeta donde se encuentra este archivo ejecutamos el siguiente comando:  
     docker run -it -v /app:/app python-app
-    luego con este otro comando levanto el contenedor, conecto ambas carpetas (en ubuntu y en contenedor)
+    luego con este otro comando levanto el contenedor, conecto ambas carpetas (en ubuntu y en contenedor)  
     docker run -it -v /home/lean/learning/docker/python/app:/app python-app
 
 
