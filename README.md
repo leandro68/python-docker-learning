@@ -12,7 +12,7 @@ Este repositorio contiene los archivos necesarios para editar y probar una app d
     con este archivo se puede hacer la imagen de Python  
     Para hacer este proyecto trabaje en en windows 10 pro, con Docker Desktop instalado, con un entorno Ubuntu (WSL), en este entorno linux, en una terminal de comando, y dentro de la carpeta donde se encuentra este archivo ejecutamos el siguiente comando:
   
-        docker run -it -v /app:/app python-app
+        docker build -t python-app
   
     luego con este otro comando levanto el contenedor, conecto ambas carpetas (en ubuntu y en contenedor)
   
@@ -32,7 +32,7 @@ This repository contains the files necessary to edit and test a python app, usin
     with this file we can create the Python image  
     To do this project, I worked on Windows 10 Pro, with Docker Desktop installed, with an Ubuntu environment (WSL), in this Linux environment, in a command terminal, and inside the folder where this file is located, we execute the following command:
   
-        docker run -it -v /app:/app python-app
+        docker build -t python-app
   
     then with this other command raise the container, connect both folders (in ubuntu and in container)
   
